@@ -6,7 +6,7 @@
 ## Objective
 In this notebook, I aim to use Google AutoML Vision to train classification model for picture labeling. I firstly trained the model with 3667 labeled pictures. The evaluation has a precision rate of 95.687%. Further, I tested the model with three pictures randomly found on the Internet, and AutoML got all of them!
 
-##Modeling
+## Modeling
 1. Vision ImageAnnotator API
 The comprehend API returns the most likely sentiment for the text as well as the 
 The ImageAnnotator has built-in model, hence do not require user to train one’s own model in order to label the picture. With the input of a picture of daisy, the output is as follows, which is quite precise.
