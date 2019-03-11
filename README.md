@@ -10,12 +10,12 @@ In this notebook, I aim to use Google AutoML Vision to train classification mode
 1. Vision ImageAnnotator API
 The comprehend API returns the most likely sentiment for the text as well as the 
 The ImageAnnotator has built-in model, hence do not require user to train one’s own model in order to label the picture. With the input of a picture of daisy, the output is as follows, which is quite precise.
-![alt text](http://url/to/img.png)
+![alt text](AutoML/pics/Picture0.png)
 
 2.  AutoML Vision trained model
 I used three randomly chosen pictures to test the classification accuracy of the trained model. The model returns the correct label with 99.9% confidence, which is quite amazing.
-(img)
-(img)
+![alt text](AutoML/pics/Picture1.png)
+![alt text](AutoML/pics/Picture2.png)
 
 ### Recommendation for Cloud User
 If we have a bunch of unlabelled pictures and want to have them labelled and have a general understanding of what’s in the pictures, Vision ImageAnnotator is a plug-in tool.
